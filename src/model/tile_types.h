@@ -1,0 +1,23 @@
+#ifndef FZRL_TILE_TYPE_H
+#define FZRL_TILE_TYPE_H
+
+// Tile Material Types
+enum Tile_Material {
+	TILE_MAT_EMPTY,
+	TILE_MAT_DIRT,
+	TILE_MAT_STONE,
+	TILE_MAT_GRASS,
+	TILE_MAT_WATER,
+	TILE_MAT_WOOD
+};
+
+// Tile Form Types
+enum Tile_Form {
+	TILE_FORM_EMPTY,
+	TILE_FORM_FLOOR,
+	TILE_FORM_WALL,
+	TILE_FORM_PATH,
+	TILE_FORM_PAVED
+};
+
+#endif

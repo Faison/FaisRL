@@ -1,0 +1,6 @@
+#ignore object files and the objects directory
+obj
+*.o
+
+#ignore the build directory
+build
